@@ -1,0 +1,9 @@
+[submodule "paypal-provider-service"]
+	path = paypal-provider-service
+	url = https://github.com/SharathPurushotham/paypal-provider-service.git
+[submodule "eureka-server-registry"]
+	path = eureka-server-registry
+	url = https://github.com/SharathPurushotham/eureka-server-registry.git
+[submodule "paypal-processing-service"]
+	path = paypal-processing-service
+	url = https://github.com/SharathPurushotham/paypal-processing-service.git

@@ -3,8 +3,9 @@ Paypal Payment Integration Microservices – Parent Repository
 This repository contains a complete microservices-based payment gateway system implemented using Spring Boot and Eureka Service Discovery. The architecture includes three independent microservices:
 
 1.Eureka Server (Service Registry) 2.Payment Processing Service 3.PayPal Provider Service
-Tech Stack
 
+Tech Stack
+```
 Programming Language: Java 17+
 Framework: Spring Boot
 Microservices Framework: Spring Cloud
@@ -22,6 +23,7 @@ Testing Tools: JUnit, Mockito
 Error Handling: ControllerAdvice + Custom Exceptions
 Logging: Spring Boot Logging (SLF4J)
 External System: PayPal API
+```
 All services communicate dynamically using service name discovery, without any hard-coded URLs. The processing service discovers the provider service through Eureka and calls its APIs to create and capture PayPal orders.
 
 Description
